@@ -1,0 +1,11 @@
+#products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#toolbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
