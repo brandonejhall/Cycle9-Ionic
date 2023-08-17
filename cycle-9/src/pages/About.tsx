@@ -6,8 +6,8 @@ import {
   IonTitle,
   IonContent,
   IonImg ,
-  IonBackButton,
-  IonButtons,
+  IonButton,
+  IonRow
 } from '@ionic/react';
 
 import './About.css'
@@ -16,8 +16,13 @@ const About = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+
+        <IonToolbar id='toolbar'>
+        <IonRow>  
           <IonTitle>About</IonTitle>
+          <IonButton routerLink="/products">Products</IonButton>
+          <IonButton routerLink="/about">About</IonButton>  
+          </IonRow>
         </IonToolbar>
       </IonHeader>
       <IonContent className='ion-content'>

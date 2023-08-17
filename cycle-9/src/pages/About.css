@@ -10,3 +10,9 @@
     height: 100%;
     text-align: center;
 }
+
+#toolbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
